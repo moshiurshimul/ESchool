@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -----------Website Header ----------*/
+
+.website-header {
+    background-color: #F0FFF0;;
+}
+
+/*---------- Navigation ----------*/
+.navbar-brand img {
+    width: 200px;
+}
+
+.nav-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 30px;
+}
+
+.nav-button {
+    background-color: #21B573;
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.nav-button a {
+    color: white;
+    text-decoration: none;
+}
