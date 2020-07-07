@@ -3,6 +3,29 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+p {
+    color: #6C6B6B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 /* -----------Website Header ----------*/
 
 .website-header {
@@ -10,6 +33,10 @@ body {
 }
 
 /*---------- Navigation ----------*/
+
+.navbar {
+    padding: 1rem 0;
+}
 .navbar-brand img {
     width: 200px;
 }
@@ -29,7 +56,33 @@ body {
     border: none;
 }
 
-.nav-button a {
-    color: white;
-    text-decoration: none;
+
+
+/*---------- Website Banner ----------*/
+.website-banner {
+    padding: 80px 20px;
+}
+.website-banner img {
+    width: 100%;
+}
+
+.p-color {
+    color: #FD511A;
+    margin-bottom: 0;
+}
+
+.website-banner h1 {
+    margin-bottom: 30px;
+}
+
+.h1-color {
+    color: #21B573;
+}
+
+.get-started-btn {
+    padding: 12px 36px;
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+    margin-top: 20px;
 }
