@@ -198,3 +198,33 @@ button a:hover {
     border: none;
     margin: 60px auto;
 }
+
+/* ---------Footer---------- */
+
+.footer-menu {
+    color: white;
+    background: #282531;
+}
+
+.footer-section {
+    padding: 100px 0 50px 0;
+}
+
+.footer-menu p {
+    color: white;
+}
+
+.footer-list {
+    padding: 0;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+footer {
+    padding: 20px 0;
+    background: #282531;
+    color: #CDCDCD;
+    text-align: center;
+}
