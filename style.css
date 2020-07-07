@@ -86,3 +86,32 @@ button a:hover {
     border: none;
     margin-top: 20px;
 }
+
+/* -------- Website Features ------- */
+.website-features {
+    margin: 50px 0;
+}
+
+.website-feature-item {
+    width: 250px;
+    height: 250px;
+    background-color: #F8FFFB;
+    text-align: center;
+    border-radius: 10px;
+}
+.website-feature-item:hover {
+    background-color: white;
+    box-shadow: 5px 5px 20px gainsboro;
+}
+
+.website-feature-item img {
+    width: 64px;
+    margin-bottom: 20px;
+}
+
+.website-feature-item h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #413960;
+}
