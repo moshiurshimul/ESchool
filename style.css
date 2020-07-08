@@ -45,6 +45,17 @@ button a:hover {
 .navbar {
     padding: 1rem 0;
 }
+
+@media screen and (max-width: 990px) { 
+    .navbar-nav {
+        margin-left: 30px;
+    }
+    .nav-button {
+    margin-left: -10px;
+    }
+}
+
+
 .navbar-brand img {
     width: 200px;
 }
@@ -72,6 +83,7 @@ button a:hover {
 }
 .website-banner img {
     width: 100%;
+    margin: 20px 0;
 }
 
 .p-color {
@@ -102,10 +114,11 @@ button a:hover {
 
 .website-feature-item {
     width: 250px;
-    height: 250px;
     background-color: #F8FFFB;
     text-align: center;
     border-radius: 10px;
+    padding: 40px 0;
+    margin: 10px;
 }
 .website-feature-item:hover {
     background: #FFFFFF;
@@ -114,6 +127,7 @@ button a:hover {
 
 .website-feature-item img {
     width: 64px;
+    height: 70px;
     margin-bottom: 20px;
 }
 
@@ -192,7 +206,14 @@ button a:hover {
 
 .testimonial-section p {
     color: #000;
+    padding: 10px;
 }
+
+@media screen and (max-width: 992px) {
+    .testimonial-section p {
+        text-align: center;
+    }
+ }
 
 .testimonial-card {
     border: none;
@@ -209,6 +230,16 @@ button a:hover {
 .footer-section {
     padding: 100px 0 50px 0;
 }
+
+@media screen and (max-width: 640px) { 
+    .footer-section {
+        text-align: center;
+    }
+
+}
+
+
+
 
 .footer-menu p {
     color: white;
